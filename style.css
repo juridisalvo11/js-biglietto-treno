@@ -1,2 +1,13 @@
 * {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#kilometri, #eta, #prezzo {
+    display: none;
+}
+
+#kilometri.visible, #eta.visible, #prezzo.visible {
+    display: block;
 }
